@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>    
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+		<link href="css/cover.css" rel="stylesheet">
+		<script src="js/socket.io.min.js"></script>
+		<script src="js/modernizr.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Todd.</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="http://facebook.com">Share on Facebook</a></li>
+                  <li><a href="http://twitter.com">Post in Twitter</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+                <form class="form-signin">
+            <h1 class="cover-heading">Flappytodd.</h1>
+            <p class="lead">Play flappy bird as todd.</p>
+
+                <input type="name" id="inputName" class="form-control" placeholder="Enter your name" required="true" autofocus>
+                <button id="playbutton" class="btn btn-lg btn-primary btn-block" type="button">Play!</button>
+		<button id="alert" class="btn btn-lg btn-primary btn-block" type="submit">Alert!</button>
+                </form>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Made by A.J. Uppal</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+	<canvas id="canvas"></canvas>
+	</body>
+	<script src="main.js"></script>
+</html>
