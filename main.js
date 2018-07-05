@@ -3,10 +3,10 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 //document.body.appendChild(canvas);
 ctx = canvas.getContext('2d');
-var socket = io.connect('ws://127.0.0.1:8080');
+//var socket = io.connect('ws://127.0.0.1:8080');
 $(document).ready(function() {
 	$("body").animate({scrollTop: 0}, 500);
-	socket.emit("connected", {});
+	//socket.emit("connected", {});
 });
 updated = false;
 $("#playbutton").on("click", function(){
